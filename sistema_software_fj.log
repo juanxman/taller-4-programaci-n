@@ -1,0 +1,20 @@
+2026-11-19 22:34:08 | INFO | Gestor de Software FJ iniciado en memoria.
+2026-11-19 22:34:08 | INFO | [OK] Cliente [CLI-01] Laura Martínez | Correo: laura.m@empresa.com | Tel: 3104567890
+2026-11-19 22:34:08 | INFO | Intento de registro de cliente 'CLI-01' procesado.
+2026-11-19 22:34:08 | INFO | [OK] Cliente [CLI-02] Carlos Gómez | Correo: cgomez@techcol.co | Tel: 3209876543
+2026-11-19 22:34:08 | INFO | Intento de registro de cliente 'CLI-02' procesado.
+2026-11-19 22:34:08 | ERROR | [ERROR CLIENTE] Correo electrónico inválido: 'correo_invalido'.
+2026-11-19 22:34:08 | INFO | Intento de registro de cliente 'CLI-03' procesado.
+2026-11-19 22:34:08 | ERROR | [ERROR CLIENTE] Ya existe un cliente con ID 'CLI-01'.
+2026-11-19 22:34:08 | INFO | Intento de registro de cliente 'CLI-01' procesado.
+2026-11-19 22:34:08 | INFO | [OK] [SRV-01] Sala 'Sala Ejecutiva Norte' (Capacidad: 25) - Base: $80,000.00/h | Estado: Disponible
+2026-11-19 22:34:08 | INFO | [OK] [SRV-02] Equipo 'Workstations Dell' [Cómputo] (Cantidad: 4) - Base: $35,000.00/h | Estado: Disponible
+2026-11-19 22:34:08 | INFO | [OK] [SRV-03] Asesoría 'Arquitectura Cloud' (DevSecOps, Senior) - Base: $150,000.00/h | Estado: Disponible
+2026-11-19 22:34:08 | ERROR | [ERROR CREACIÓN SERVICIO] La tarifa base debe ser un número mayor que cero.
+2026-11-19 22:34:08 | INFO | [OK] Reserva [RES-101] | Estado: CONFIRMADA | Cliente: Laura Martínez | Servicio: Sala Ejecutiva Norte | Duración: 4h | Total: $394,128.00
+2026-11-19 22:34:08 | ERROR | [ERROR RESERVA 'RES-102'] El servicio 'Sala Ejecutiva Norte' no está disponible.
+2026-11-19 22:34:08 | INFO | [OK] Reserva [RES-103] | Estado: CONFIRMADA | Cliente: Carlos Gómez | Servicio: Arquitectura Cloud | Duración: 3h | Total: $696,150.00
+2026-11-19 22:34:08 | ERROR | [ERROR RESERVA 'RES-104'] No existe el cliente 'CLI-99'.
+2026-11-19 22:34:08 | INFO | [OK] Cancelada -> Reserva [RES-101] | Estado: CANCELADA | Cliente: Laura Martínez | Servicio: Sala Ejecutiva Norte | Duración: 4h | Total: $394,128.00
+2026-11-19 22:34:08 | INFO | [OK] Reserva [RES-105] | Estado: CONFIRMADA | Cliente: Carlos Gómez | Servicio: Sala Ejecutiva Norte | Duración: 2h | Total: $218,960.00
+2026-11-19 22:34:08 | ERROR | [ERROR CANCELACIÓN] La reserva RES-101 ya estaba cancelada.
